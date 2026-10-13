@@ -1,0 +1,33 @@
+name: texoclient
+description: >-
+  Flutter client and drop-in button widget for the Texo OCR API. Pick or capture
+  an image and get structured text back, with typed errors and automatic retries.
+version: 1.0.0
+homepage: https://klys.ai/texo/
+repository: https://github.com/Klystron-Technologies-Pvt-Ltd/texo-client
+issue_tracker: https://github.com/Klystron-Technologies-Pvt-Ltd/texo-client/issues
+topics:
+  - ocr
+  - text-recognition
+  - image
+  - api-client
+
+environment:
+  sdk: ^3.10.0
+  flutter: '>=3.38.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # HTTP: multipart upload, progress, cancellation, typed transport errors.
+  dio: ^5.11.1
+  # Selecting an existing image, on every supported platform.
+  file_picker: ^13.1.0
+  # Camera capture only; no file picker can open a camera.
+  image_picker: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
