@@ -1,3 +1,8 @@
+## 1.0.1
+
+- Default API endpoint (`ImageTextExtractor.defaultBaseUrl`) changed to
+  `https://saas.texo.klystron.app/v2`.
+
 ## 1.0.0
 
 Initial release.

@@ -2,7 +2,7 @@ name: texoclient
 description: >-
   Flutter client and drop-in button widget for the Texo OCR API. Pick or capture
   an image and get structured text back, with typed errors and automatic retries.
-version: 1.0.0
+version: 1.0.1
 homepage: https://klys.ai/texo/
 repository: https://github.com/Klystron-Technologies-Pvt-Ltd/texo-client
 issue_tracker: https://github.com/Klystron-Technologies-Pvt-Ltd/texo-client/issues
