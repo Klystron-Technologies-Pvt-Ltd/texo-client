@@ -30,8 +30,7 @@ import 'models/extraction_error.dart';
 /// ```
 class ImageTextExtractor {
   /// The production Texo API endpoint, used when no `baseUrl` is given.
-  static const String defaultBaseUrl =
-      'https://api-v2-756341732140.europe-west1.run.app/v2';
+  static const String defaultBaseUrl = 'https://saas.texo.klystron.app/v2';
 
   /// Largest image accepted, in bytes. Enforced before upload.
   static const int maxFileSizeBytes = 10 * 1024 * 1024;
